@@ -1,0 +1,8 @@
+@media only screen and (max-width: 465px) {
+	.logo__text {
+		font-size: 37px;
+	}
+	.logo {
+		margin: 20px 0px 0px 0px;
+	}
+}

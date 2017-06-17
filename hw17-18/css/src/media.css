@@ -1,0 +1,14 @@
+  @media only screen and (max-width: 626px) {
+    .input__help {
+      top: -7px;
+      left: 130px;
+    }
+}
+@media only screen and (max-width: 470px) {
+    .input__help {
+      top: -7px;
+      left: 45px;
+    }
+}
+
+

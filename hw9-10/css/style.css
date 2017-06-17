@@ -1,0 +1,373 @@
+body {
+  background: #141414;
+  height: 1400px;
+}
+
+.button__color {
+  top: 10px;
+  left: 10px;
+  border-radius: 17px;
+  width: 57px;
+  height: 58px;
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+  background: url(../img/11.png) 2px 3px no-repeat;
+}
+
+.button__color2 {
+  top: 10px;
+  left: 10px;
+  border-radius: 17px;
+  width: 57px;
+  height: 57px;
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+  background: url(../img/11.png) -53px -53px no-repeat;
+}
+
+.button__color__text {
+  top: -12px;
+  left: 16px;
+  position: relative;
+  color: aliceblue;
+  font-family: sans-serif;
+}
+
+
+/*---------------CARUSEl-----------------*/
+
+.jcarousel-wrapper {
+  margin: 20px auto;
+  position: relative;
+  border: 10px solid #4e3b3b;
+  width: 600px;
+  height: 400px;
+  border-radius: 5px;
+  box-shadow: 0 0 2px #999;
+}
+
+
+/** Carousel **/
+
+.jcarousel {
+  position: relative;
+  overflow: hidden;
+}
+
+.jcarousel ul {
+  width: 20000em;
+  position: relative;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.jcarousel li {
+  float: left;
+}
+
+
+/** Carousel Controls **/
+
+.jcarousel-control-prev,
+.jcarousel-control-next {
+  position: absolute;
+  top: 200px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  background: #4E443C;
+  color: #fff;
+  text-decoration: none;
+  text-shadow: 0 0 1px #000;
+  font: 24px/27px Arial, sans-serif;
+  border-radius: 10px;
+  box-shadow: 0 0 2px #999;
+}
+
+.jcarousel-control-prev {
+  left: -50px;
+}
+
+.jcarousel-control-next {
+  right: -50px;
+}
+
+.jcarousel-control-prev:hover span,
+.jcarousel-control-next:hover span {
+  display: block;
+}
+
+
+/*---------------SELECT-----------------*/
+
+.h1-select {
+  font-size: 30px;
+  color: #7e7e7e;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin: 30px 0px 10px 0px
+}
+
+.sbHolder {
+  background-color: #2d2d2d;
+  border: solid 1px #515151;
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  height: 30px;
+  position: relative;
+  width: 250px;
+  text-align: center;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+.sbSelector {
+  display: block;
+  height: 30px;
+  left: 0;
+  line-height: 30px;
+  outline: none;
+  overflow: hidden;
+  position: absolute;
+  text-indent: 10px;
+  top: 0;
+  width: 220px;
+}
+
+.sbSelector:link,
+.sbSelector:visited,
+.sbSelector:hover {
+  color: #EBB52D;
+  outline: none;
+  text-decoration: none;
+}
+
+.sbToggle {
+  background: url(../img/select-icons.png) 0 -116px no-repeat;
+  display: block;
+  height: 30px;
+  outline: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 30px;
+}
+
+.sbToggle:hover {
+  background: url(../img/select-icons.png) 0 -167px no-repeat;
+}
+
+.sbToggleOpen {
+  background: url(../img/select-icons.png) 0 -16px no-repeat;
+}
+
+.sbToggleOpen:hover {
+  background: url(../img/select-icons.png) 0 -66px no-repeat;
+}
+
+.sbOptions {
+  border-radius: 5px;
+  background-color: #212121;
+  border: solid 1px #515151;
+  list-style: none;
+  left: -1px;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 30px;
+  width: 250px;
+  z-index: 1;
+  overflow-y: auto;
+}
+
+.sbOptions li {
+  padding: 0 7px;
+}
+
+.sbOptions a {
+  border-bottom: solid 1px #2e2e2e;
+  display: block;
+  outline: none;
+  padding: 7px 0 7px 3px;
+}
+
+.sbOptions a:link,
+.sbOptions a:visited {
+  color: #ddd;
+  text-decoration: none;
+}
+
+.sbOptions a:hover,
+.sbOptions a:focus,
+.sbOptions a.sbFocus {
+  color: #EBB52D;
+}
+
+
+/*---------------CHECKBOX----------------*/
+
+.h1-chec {
+  font-size: 30px;
+  color: #7e7e7e;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin: 30px 0px -15px 20px;
+}
+
+.jq-checkboxes {
+  margin-left: 40px;
+  padding-top: 30px;
+  padding-left: 20px;
+}
+
+.jq-label-checkbox {
+  cursor: pointer;
+  position: relative;
+  top: -10px;
+  color: #7e7e7e;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+.jq-checkbox {
+  display: inline-block;
+  background: url('../img/checs.png') 0 0px no-repeat;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  position: relative;
+  top: 5px;
+  margin-left: 14px;
+}
+
+.jq-checkbox input {
+  display: none;
+}
+
+input[type=checkbox] {
+  position: absolute;
+  clip: rect(0, 0, 0, 0);
+}
+
+.chec2 {
+  color: #7e7e7e;
+  font-size: 20px;
+  font-family: sans-serif;
+  cursor: pointer;
+}
+
+.chec2:after {
+  content: " ";
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background: url(../img/checs.png);
+  position: relative;
+  top: 3px;
+  margin-left: 32px;
+}
+
+input[type=checkbox]:checked + label:after {
+  background-position: 0 -32px;
+}
+
+.chec2:hover:after {
+  background-position: 0 -62px;
+}
+
+input[type=checkbox]:checked + .chec2:hover:after {
+  background-position: 0 -94px;
+}
+
+
+/*-----------------MENU---------------*/
+
+.menu {
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-top: 30px;
+  background-color: rgb(41, 25, 25);
+  padding: 5px 0px;
+  text-align: center;
+}
+
+.menu__list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  position: relative;
+}
+
+nav li ul {
+  text-align: center;
+  border-radius: 5px;
+  background-color: rgb(41, 25, 25);
+  position: absolute;
+  left: -55px;
+  top: 40px;
+  width: 200px;
+}
+
+nav li li {
+  position: relative;
+  margin: 0;
+  display: block;
+}
+
+nav li li ul {
+  position: absolute;
+  top: 0;
+  left: 200px;
+  margin: 0;
+  border: 2px solid #141414;
+}
+
+nav a {
+  line-height: 40px;
+  padding: 0 12px;
+  margin: 0 12px;
+  color: #b7aeae;
+  text-decoration: none;
+  display: block;
+}
+
+nav a:hover,
+nav a:focus,
+nav a:active {
+  color: rgb(255, 255, 255);
+}
+
+nav li li a {
+  border-bottom: solid 1px rgb(173, 151, 151);
+  margin: 0 10px;
+  padding: 0;
+}
+
+nav li li:last-child a {
+  border-bottom: none;
+}
+
+ul.submenu {
+  display: none;
+}
+
+nav li.menu__list__dropdown > a {
+  background-image: url('../img/arrow-down.png');
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+nav li li.menu__list__dropdown > a {
+  background-image: url('../img/arrow-right.png');
+  background-position: right 16px;
+  background-repeat: no-repeat;
+}

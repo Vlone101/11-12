@@ -1,0 +1,17 @@
+body{
+	background: #0f0f0f;
+}
+.logo{
+	width: 80%;
+
+}
+.picture{
+	width: 44%;
+	margin: 0 auto;
+
+}
+.wrapper{
+	width: 70%;
+	padding: 15%;
+	margin: 0 auto;
+}

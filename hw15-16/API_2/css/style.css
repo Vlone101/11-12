@@ -1,0 +1,90 @@
+body {
+	background: url(../img/des.jpg);
+}
+
+::selection {
+	background-color: rgba(0, 0, 0, 0.44);
+}
+
+.wrapper {
+	position: relative;
+	width: 480px;
+	height: 250px;
+	top: 50%;
+	left: 50%;
+	margin: 160px 0 0 -325px;
+	padding: 50px 90px 50px 90px;
+	border-radius: 35px;
+	background-color: rgba(31, 31, 31, 0.5);
+}
+
+.logo {
+	text-align: center;
+	margin: -40px 0px 0px 0px;
+}
+
+.logo__text {
+	color: white;
+	font-weight: bold;
+	font-size: 72px;
+	font-family: sans-serif;
+}
+
+.country {
+	display: block;
+	margin: 30px 130px;
+	background-color: rgba(35, 64, 183, 0.06);
+	color: #ffffff;
+	text-shadow: 1px 1px black;
+	font-size: 18px;
+	border-radius: 3px;
+	border: 0px;
+	text-align: center;
+	border-radius: 7px;
+	text-align-last: center;
+	border: 2px outset #e6e6e6;
+}
+
+.country:hover {
+	background: #2340b7;
+	box-shadow: 0px 0px 5px 0px white;
+}
+
+.country:focus {
+	background: rgb(41, 132, 144);
+}
+
+.button {
+	display: block;
+	position: relative;
+	top: -57px;
+	left: 305px;
+	width: 45px;
+	height: 27px;
+	font-size: 18px;
+	background: rgba(35, 64, 183, 0.06);
+	color: white;
+	border-radius: 7px;
+	text-shadow: 1px 1px black;
+}
+
+.button:hover {
+	background: #2340b7;
+	box-shadow: 0px 0px 5px 0px white;
+}
+
+.temp {
+	color: white;
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 20px;
+	margin: -25px 0px 0px 0px;
+}
+
+.humidity {
+	color: white;
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 20px;
+	margin: 30px 0px 0px 0px;
+}

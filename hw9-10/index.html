@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>HW9-10</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="button__color2"></div>
+  <div class="button__color"></div>
+  <span class="button__color__text">Choose a color for the site</span>
+
+  <div class="wrapper">
+    <div class="jcarousel-wrapper">
+      <div data-jcarousel="true" data-wrap="circular" class="jcarousel">
+        <ul>
+          <li><img src="img/1.jpg" width="600" height="400" alt=""></li>
+          <li><img src="img/2.jpg" width="600" height="400" alt=""></li>
+          <li><img src="img/3.jpg" width="600" height="400" alt=""></li>
+          <li><img src="img/4.jpg" width="600" height="400" alt=""></li>
+          <li><img src="img/5.jpg" width="600" height="400" alt=""></li>
+        </ul>
+      </div>
+      <a data-jcarousel-control="true" data-target="-=1" href="#" class="jcarousel-control-prev">&lsaquo;</a>
+      <a data-jcarousel-control="true" data-target="+=1" href="#" class="jcarousel-control-next">&rsaquo;</a>
+    </div>
+  </div>
+
+  <h1 class="h1-select">SELECT</h1>
+  <form action="#" method="get" class="playground">
+    <select name="country_id" class="country_id" tabindex="1">
+      <option value="">-- Select country --</option>
+      <option value="1">USA</option>
+      <option value="2">France</option>
+      <option value="3">Spain</option>
+      <option value="4">Brazil</option>
+      <option value="5">Japan</option>
+      <option value="6">Bulgaria</option>
+      <option value="7">Greece</option>
+      <option value="8">Italy</option>
+      <option value="9">India</option>
+    </select>
+  </form>
+  <h1 class="h1-chec">CHECKBOX</h1>
+  <form action="#" class="jq-checkboxes">
+    <label for="chec" class="jq-label-checkbox">jQuery<span class="jq-checkbox"><input id="chec" name="chec" type="checkbox"></span></label>
+    <br>
+    <input type="checkbox" id="test-check1">
+    <label class="chec2" for="test-check1">CSS</label>
+  </form>
+  <nav class="menu">
+    <ul class="menu__list">
+      <li class="menu__list__dropdown">
+        <a href="">New</a>
+        <ul class="submenu">
+          <li class="menu__list__item"><a href="">New 1</a></li>
+          <li class="menu__list__item"><a href="">New 2</a></li>
+          <li class="menu__list__item"><a href="">New 3</a></li>
+          <li class="menu__list__dropdown">
+            <a href="">New 4</a>
+            <ul class="submenu">
+              <li class="menu__list__item"><a href="">New 1</a></li>
+              <li class="menu__list__dropdown">
+                <a href="">New 2</a>
+                <ul class="submenu">
+                  <li class="menu__list__item"><a href="">New 1</a></li>
+                  <li class="menu__list__item"><a href="">New 2</a></li>
+                  <li class="menu__list__item"><a href="">New 3</a></li>
+                  <li class="menu__list__item"><a href="">New 4</a></li>
+                  <li class="menu__list__item"><a href="">New 5</a></li>
+                </ul>
+              </li>
+              <li class="menu__list__item"><a href="">New 3</a></li>
+              <li class="menu__list__item"><a href="">New 4</a></li>
+              <li class="menu__list__item"><a href="">New 5</a></li>
+            </ul>
+          </li>
+          <li class="menu__list__item"><a href="">New 5</a></li>
+        </ul>
+      </li>
+      <li class="menu__list__item"><a href="">Coub</a></li>
+      <li class="menu__list__dropdown">
+        <a href="">Man</a>
+        <ul class="submenu">
+          <li class="menu__list__item"><a href="">Man 1</a></li>
+          <li class="menu__list__item"><a href="">Man 2</a></li>
+          <li class="menu__list__item"><a href="">Man 3</a></li>
+          <li class="menu__list__dropdown">
+            <a href="">Man 4</a>
+            <ul class="submenu">
+              <li class="menu__list__item"><a href="">Man 1</a></li>
+              <li class="menu__list__dropdown">
+                <a href="">Man 2</a>
+                <ul class="submenu">
+                  <li class="menu__list__item"><a href="">Man 1</a></li>
+                  <li class="menu__list__item"><a href="">Man 2</a></li>
+                  <li class="menu__list__item"><a href="">Man 3</a></li>
+                  <li class="menu__list__item"><a href="">Man 4</a></li>
+                  <li class="menu__list__item"><a href="">Man 5</a></li>
+                </ul>
+              </li>
+              <li class="menu__list__item"><a href="">Man 3</a></li>
+              <li class="menu__list__item"><a href="">Man 4</a></li>
+              <li class="menu__list__item"><a href="">Man 5</a></li>
+            </ul>
+          </li>
+          <li class="menu__list__item"><a href="">Man 5</a></li>
+        </ul>
+      </li>
+      <li class="menu__list__item"><a href="">Roshi</a></li>
+      <li class="menu__list__item"><a href="">Myrei</a></li>
+    </ul>
+  </nav>
+  <script src="js/jquery-1.12.3.min.js"></script>
+  <script src="js/jquery.jcarousel-min.js"></script>
+  <script src="js/jquery.selectbox-0.2.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
